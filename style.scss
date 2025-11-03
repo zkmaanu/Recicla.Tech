@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex ; // Flexbox layout for header
+    border: solid;
+    height: 10vh;
+     // justify-content:space-between ; // alinha o 1 no inicio e o 2 no final
+     // space-around  O espaço vazio antes do primeiro e depois do último item é igual a metade do espaço entre cada par de itens adjacentes.
+
+     // space-evenly  Os itens são colocados no eixo principal com espaçamentos equivalentes entre si.
+
+     // space-between  O primeiro item fica no começo do eixo e o último no fim, os restantes ficam alinhados entre si no meio.
+    justify-content: space-around; 
+    align-items: center;
+}
+
+h1 {
+background-color: cornflowerblue;
+}
+
+nav {
+background-color: rgb(185, 108, 119);
+
+
+}

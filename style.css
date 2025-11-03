@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  border: solid;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  background-color: cornflowerblue;
+}
+
+nav {
+  background-color: rgb(185, 108, 119);
+}/*# sourceMappingURL=style.css.map */
