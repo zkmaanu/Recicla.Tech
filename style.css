@@ -4,11 +4,38 @@
   box-sizing: border-box;
 }
 
+.primeirasection {
+  display: flex;
+  justify-content: space-around;
+  height: 70vh;
+}
+.primeirasection section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.primeirasection p {
+  font-size: 1.5rem;
+  width: 80%;
+}
+.primeirasection h2 {
+  font: size 500;
+  width: 70%;
+}
+.primeirasection .boxprimeira {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.primeirasection button {
+  cursor: pointer;
+  padding: 30px 40px;
+}
+
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: solid green 5px;
   height: 10vh;
   align-items: initial;
 }
@@ -18,11 +45,36 @@ header {
   justify-content: space-between;
   width: 15%;
   align-items: center;
-  border: solid;
 }
 .caixalogo h1 {
-  color: black;
   font-size: 2rem;
+}
+
+.primeirasection {
+  flex-direction: column;
+  align-items: center;
+}
+.primeirasection h2 {
+  font-size: 1rem;
+  width: 100%;
+}
+.primeirasection img {
+  width: 80vw;
+}
+.primeirasection p {
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.boxprimeira {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+section {
+  align-items: center;
+  justify-content: space-between;
 }
 
 header nav {
@@ -33,7 +85,6 @@ header nav {
   height: 10vh;
 }
 header nav a {
-  color: black;
   text-decoration: none;
 }
 
@@ -53,7 +104,6 @@ header nav a {
 }
 
 .produtosDisponiveis article {
-  border: solid #16a34a;
   width: 18%;
   height: 60vh;
   display: flex;
@@ -75,4 +125,31 @@ header nav a {
 .produtosDisponiveis article button {
   margin-bottom: 2rem;
   padding: 1rem;
+}
+
+@media (max-width: 500px) {
+  header {
+    height: 18vh;
+    flex-direction: column;
+  }
+  header nav {
+    width: 90%;
+  }
+  header nav a {
+    font-size: 0.8rem;
+  }
+  .caixaLogo {
+    width: 50%;
+  }
+  .caixaLogo h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .produtosDisponiveis {
+    flex-direction: column;
+  }
+  .produtosDisponiveis article {
+    width: 50%;
+  }
 } /*# sourceMappingURL=style.css.map */
