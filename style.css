@@ -50,33 +50,6 @@ header {
   font-size: 2rem;
 }
 
-.primeirasection {
-  flex-direction: column;
-  align-items: center;
-}
-.primeirasection h2 {
-  font-size: 1rem;
-  width: 100%;
-}
-.primeirasection img {
-  width: 80vw;
-}
-.primeirasection p {
-  font-size: 1rem;
-  width: 100%;
-  text-align: center;
-}
-
-.boxprimeira {
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-section {
-  align-items: center;
-  justify-content: space-between;
-}
-
 header nav {
   display: flex;
   justify-content: space-between;
@@ -151,5 +124,29 @@ header nav a {
   }
   .produtosDisponiveis article {
     width: 50%;
+  }
+  .primeirasection {
+    flex-direction: column;
+    align-items: center;
+  }
+  .primeirasection h2 {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .primeirasection img {
+    width: 80vw;
+  }
+  .primeirasection p {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .boxprimeira {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  section {
+    align-items: center;
+    justify-content: space-between;
   }
 } /*# sourceMappingURL=style.css.map */

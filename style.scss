@@ -65,49 +65,6 @@ header {
 
 
 
-// celular 
- .primeirasection {
-  flex-direction: column;
-  align-items: center;
-     h2 {
-  font-size: 1rem;
-  width: 100%;
-   }
-    img {
-
-      width: 80vw;
-    }
-     p {
-     font-size: 1rem;
-     width: 100%;
-     text-align: center
-   }
-
-  
- }
- 
-
-.boxprimeira {
-  flex-direction: column;
-  justify-content: space-evenly;
-   }
-
-   section {
-    align-items: center;
-    justify-content: space-between;
-   }
-
-
-
-
-
-
-
-
-
-
-
-
 header nav {
   display: flex;
   justify-content: space-between;
@@ -182,4 +139,39 @@ header nav {
   .produtosDisponiveis article {
     width: 50%;
   }
+
+  .primeirasection {
+  flex-direction: column;
+  align-items: center;
+     h2 {
+  font-size: 1rem;
+  width: 100%;
+   }
+    img {
+      width: 80vw;
+    }
+     p {
+     font-size: 1rem;
+     width: 100%;
+     text-align: center
+   }
+
+  
+ }
+ 
+
+.boxprimeira {
+  flex-direction: column;
+  justify-content: space-evenly;
+   }
+
+   section {
+    align-items: center;
+    justify-content: space-between;
+   }
+
+
+
+
+
 }/*# sourceMappingURL=style.css.map */
